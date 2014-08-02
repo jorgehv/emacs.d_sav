@@ -380,8 +380,8 @@ With arg N, insert N newlines."
 (modify-face 'font-lock-jhv-face "Red" "Green" nil t nil t nil nil)
 
 (global-set-key (kbd "C-x i") 'indent-region)
-(global-set-key (kbd "C-x c") 'comment-region)
-(global-set-key (kbd "C-x p") 'uncomment-region)
+(global-set-key (kbd "C-x p") 'comment-region)
+(global-set-key (kbd "C-x P") 'uncomment-region)
 
 (define-key global-map (kbd "C-c ;") 'iedit-mode)
 

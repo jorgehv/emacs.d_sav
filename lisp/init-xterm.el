@@ -24,4 +24,6 @@
             (when (fboundp 'mwheel-install)
               (mwheel-install))))
 
+(require 'emamux)
+
 (provide 'init-xterm)
