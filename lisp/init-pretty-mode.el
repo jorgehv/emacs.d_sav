@@ -1,4 +1,4 @@
 (require 'pretty-mode)
 (global-pretty-mode 1)
 
-(provide 'pretty-mode)
+(provide 'init-pretty-mode)

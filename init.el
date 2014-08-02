@@ -56,7 +56,8 @@
 (require 'init-cscope)
 (require 'init-yasnippet)
 (require 'init-auto-complete-c-headers)
-(require 'pretty-mode)
+(require 'init-pretty-mode)
+(require 'init-cedet)
 
 (require 'init-vc)
 (require 'init-darcs)
