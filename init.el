@@ -54,6 +54,8 @@
 (require 'init-editing-utils)
 
 (require 'init-cscope)
+(require 'init-yasnippet)
+(require 'init-auto-complete-c-headers)
 (require 'pretty-mode)
 
 (require 'init-vc)

@@ -382,5 +382,6 @@ With arg N, insert N newlines."
 
 (global-set-key (kbd "C-x i") 'indent-region)
 
+(define-key global-map (kbd "C-c ;") 'iedit-mode)
 
 (provide 'init-editing-utils)
