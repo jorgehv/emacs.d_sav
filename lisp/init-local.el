@@ -42,4 +42,7 @@
 ;; (key-chord-define c++-mode-map "{}"  "{\n\n}\C-p\t")
 ;; (key-chord-define c-mode-map "{}"  "{\n\n}\C-p\t")
 
+(add-hook 'c-mode-hook 'column-enforce-mode)
+(add-hook 'c++-mode-hook 'column-enforce-mode)
+
 (provide 'init-local)
