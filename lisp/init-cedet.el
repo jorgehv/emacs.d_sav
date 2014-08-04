@@ -1,3 +1,12 @@
+;;(load-file "~/.emacs.d/site-lisp/cedet-bzr/cedet-devel-load.el")
+
+;; Add further minor-modes to be enabled by semantic-mode.
+;; See doc-string of `semantic-default-submodes' for other things
+;; you can use here.
+(add-to-list 'semantic-default-submodes 'global-semantic-idle-summary-mode t)
+(add-to-list 'semantic-default-submodes 'global-semantic-idle-completions-mode t)
+;;(add-to-list 'semantic-default-submodes 'global-cedet-m3-minor-mode t)
+
 (semantic-mode 1)
 
 (defun my:add-semantic-to-autocomplete()
