@@ -23,6 +23,7 @@
 ;;----------------------------------------------------------------------------
 ;; Load configs for specific features and modes
 ;;----------------------------------------------------------------------------
+(require 'init-cedet)
 
 (require-package 'wgrep)
 (require-package 'project-local-variables)
@@ -57,7 +58,6 @@
 (require 'init-yasnippet)
 (require 'init-auto-complete-c-headers)
 (require 'init-pretty-mode)
-(require 'init-cedet)
 
 (require 'init-vc)
 (require 'init-darcs)
